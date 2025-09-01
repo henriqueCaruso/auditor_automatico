@@ -95,7 +95,7 @@ def load_css():
 load_css()
 
 # --- CABEÇALHO PERSONALIZADO ---
-logo_path = 'lofo_empresa.png'
+logo_path = 'logo_empresa.png'
 header_html = '<div class="header-container">'
 if os.path.exists(logo_path):
     img_bytes = open(logo_path, 'rb').read()
