@@ -1,0 +1,22 @@
+# Ambiente Virtual
+venv/
+/venv/
+*.venv
+.venv
+
+# Arquivos de Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de ambiente (para senhas e chaves de API, uma boa prática)
+.env
+
+# Pastas de IDEs (Opcional, mas recomendado)
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
